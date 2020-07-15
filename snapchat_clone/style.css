@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: auto;
+    align-items: center;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin: 0 2px;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.25em;
+    font-weight: 500;
+
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #FFFC00;
+}
+
+header {
+    background: #FFFC00;
+    height: 700px;
+}
+
+header div h1 {
+    font-size: 4em;
+    font-weight: 800;
+
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px;
+
+
+}
+
+.link-button:hover {
+    color: #FFFC00;
+}
+
+#image-section img {
+    width: 350px;
+    height: 350px;
+}
+
+
+
+#image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+#footer-container1 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+}
+
+#footer-container1 ul {
+    list-style: none;
+}
+
+#footer-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+#footer-container3 {
+    background: #1c1c1b;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 20px;
+}
+
+#footer-container3 h5 {
+    margin-left: 100px;
+}
